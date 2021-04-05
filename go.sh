@@ -5,3 +5,4 @@ usermod -aG docker root;systemctl enable docker
 mkdir -p /etc/docker/;wget https://cdn.jsdelivr.net/gh/Subeting/docker-onekey-install/daemon.json -O  /etc/docker/daemon.json
 systemctl daemon-reload
 systemctl restart docker
+echo "/etc/docker/daemon.json"
