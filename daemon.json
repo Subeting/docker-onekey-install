@@ -1,0 +1,5 @@
+{
+  "log-driver":"json-file",
+  	"dns": ["80.80.80.80", "1.0.0.1", "8.8.8.8"],
+  "log-opts": {"max-size":"5m", "max-file":"3"}
+}
