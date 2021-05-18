@@ -1,8 +1,8 @@
 {
   "log-driver":"json-file",
-  "ipv6": true,
+  #"ipv6": true,
   	"dns": ["1.0.0.1", "80.80.80.80", "8.8.8.8"],
-   "experimental": true,
-  "ip6tables": true,
+  # "experimental": true,
+ # "ip6tables": true,
   "log-opts": {"max-size":"5m", "max-file":"3"}
 }
