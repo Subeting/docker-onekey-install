@@ -1,5 +1,5 @@
 #!/bin/bash
-(apt update -y;apt install wget  curl -y)||(yum install wget curl epel-release -y)
+(apt update -y;apt install wget  curl unzip -y)||(yum install wget curl epel-release -y)
 setenforce 0
 sed -i 's/SELINUX=enforcing/SELINUX=disabled/' /etc/selinux/config  
 curl https://get.docker.com|bash
